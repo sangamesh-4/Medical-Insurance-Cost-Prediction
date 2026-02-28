@@ -1,69 +1,94 @@
-Medical Insurance Cost Prediction 🏥
-Project Overview
+# 🏥 Medical Insurance Cost Prediction
 
-This project performs data analysis and builds machine learning models to predict medical insurance charges based on individual attributes such as age, BMI, smoking status, and region.
+## 📖 Project Overview
+This project aims to predict medical insurance charges based on individual attributes such as age, BMI, smoking habits, region, and number of children.  
+The goal is to build a regression model that can accurately estimate insurance costs and identify the most influential factors affecting medical expenses.
 
-Dataset
+---
 
-Medical Insurance Dataset
+## 📊 Dataset Description
+The dataset contains the following features:
 
-Features include:
-Age, Gender, BMI, Children, Smoker, Region, Charges
+- **age** – Age of the individual
+- **sex** – Gender
+- **bmi** – Body Mass Index
+- **children** – Number of dependents
+- **smoker** – Smoking status
+- **region** – Residential region
+- **charges** – Medical insurance cost (Target Variable)
 
-Tools & Technologies
+---
 
-Python
+## 🧠 Problem Statement
+To develop a machine learning model that predicts medical insurance charges and evaluate its performance using regression metrics.
 
-Pandas
+---
 
-NumPy
+## 🔎 Exploratory Data Analysis (EDA)
+- Distribution analysis of numerical features
+- Correlation heatmap
+- Impact of smoking on insurance charges
+- BMI vs Charges relationship
+- Actual vs Predicted visualization
 
-Matplotlib
+---
 
-Seaborn
+## ⚙️ Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Scikit-learn
+---
 
-Key Analysis Performed
+## 🤖 Models Implemented
+- Linear Regression
+- Random Forest Regressor
 
-Data cleaning and preprocessing
+---
 
-Correlation analysis
+## 📈 Model Evaluation Metrics
+- R² Score
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
 
-Smoking impact on insurance charges
+Random Forest showed better performance compared to Linear Regression.
 
-BMI vs Charges relationship
+---
 
-Age vs Charges trend analysis
+## 📌 Key Insights
+- Smoking significantly increases medical insurance charges.
+- Higher BMI tends to increase insurance costs.
+- Age is positively correlated with medical expenses.
+- Random Forest model captures non-linear relationships better.
 
-Actual vs Predicted visualization
+---
 
-Machine Learning Models
+## 🚀 Future Improvements
+- Hyperparameter tuning using GridSearchCV
+- Model deployment using Streamlit
+- Feature engineering for improved accuracy
+- Cross-validation for robust evaluation
 
-Linear Regression
+---
 
-Random Forest Regressor
+## 📂 Project Structure
+```
+Medical-Insurance-Cost-Prediction/
+│
+├── Medical_Insurance_Cost_Prediction.ipynb
+├── README.md
+└── dataset.csv (if included)
+```
 
-Model Evaluation
+---
 
-R² Score
+## 🙌 Author
+**Sangamesh**  
+Aspiring Data Scientist | Machine Learning Enthusiast  
 
-Mean Absolute Error (MAE)
+---
 
-Root Mean Squared Error (RMSE)
-
-Random Forest performed better compared to Linear Regression.
-
-Key Insights
-
-Smoking significantly increases insurance costs
-
-Higher BMI leads to higher charges
-
-Age positively influences medical expenses
-
-Tree-based models capture non-linear patterns effectively
-
-Conclusion
-
-This project strengthened my understanding of exploratory data analysis, regression modeling, and performance evaluation techniques in machine learning.
+⭐ If you found this project interesting, feel free to star the repository!
